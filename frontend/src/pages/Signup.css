@@ -1,0 +1,49 @@
+.signup__bg{
+    background-image: url("./../assets/signup.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.signup__header{
+  font-size: 3rem;
+  text-align:start;
+  font-family:monospace;
+}
+
+.signup__header__span{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(7,39,118);
+}
+
+.signup__label{
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.image__upload__label{
+  position: relative;
+}
+
+.add-picture-icon{
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .signup__bg {
+      height: 40vh;
+    }
+
+    .signup__header{
+      margin-top: 2rem;
+      font-size: 2.1rem;
+    }
+
+    .signup__label{
+      font-size: 1rem;
+    }
+  }

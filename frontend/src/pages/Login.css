@@ -1,0 +1,39 @@
+.login__bg{
+    background-image: url("./../assets/login.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.login__header{
+  font-size: 3rem;
+  text-align:start;
+  font-family:monospace;
+}
+
+.login__header__span{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(7,39,118);
+}
+
+.login__label{
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .login__bg {
+      height: 40vh;
+    }
+
+    .login__header{
+      margin-top: 2rem;
+      font-size: 2.1rem;
+    }
+
+    .login__label{
+      font-size: 1rem;
+    }
+  }

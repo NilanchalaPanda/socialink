@@ -1,0 +1,11 @@
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/functions";
+
+$custom-colors:(
+    "royalpurle": #fff364
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+//include bootstrap : 
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
